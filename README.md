@@ -1,0 +1,1 @@
+This project conains all basic Prerequisites for Reactjs 
