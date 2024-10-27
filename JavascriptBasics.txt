@@ -1,0 +1,63 @@
+                                JAVASCRIPTS_BASICS
+-->What is Javascript?
+*A technology that we use to create Websites.
+*Giving Instructions to computer
+
+                        Basic Syntax: 
+Variables (let, const, var), data types (strings, numbers, arrays, 
+objects), and operators.
+
+                        -->Variables :-
+*Variablesare like containers that store data values. In javascript ,we use keywords like 
+let,const and var to declare Variables.
+
+1) let :
+*Use 'let' when you need  a Variable that can be reassigned later .
+*'let' is block-scoped, meaning it is only accessible within the block
+(like {...} where it id defined)
+
+2)const :
+*Use 'const' for variables that should not be reassigned after the initial assignment(they are constant).
+*'const' is also block-scoped.
+Note:- While the variable cannot be reassigned,if it is an object or an array,you can still modify the constants of the object or array.
+
+3)var :
+*'var' is function-scoped,meaning it is accessible throughout the function it is declares in,not limited by block{}.
+*'var' has been mostly replaced by 'let' and 'const' in modern javaScript because its scoping can cause inexepected behaviors.
+
+                       -->Data types
+1)String:-
+*Used for textual data,written within quotes("",'',or "for template literals)
+=>In javascript backstick(``) are used to create a template literal,which allows you to insert variables and expressions directly into the string.
+=>Template literals also support multi-libe Stringss,making them more flexible than regular srings with single('...') or double quotes("...").
+Ex. let grerting=`Hello, ${name}!`;
+=> ${} Syntax is used within template literals to embed variables or expressions.
+=>Inside ${},you can add any javascript expression,not just simple variables.This means you can perform calculations or call functions directly within a string.
+ex.
+let a=5;
+let b=10;
+let message=`The sum of a and b is ${a+b}`;
+console.log(message)
+=>Templates literals with ${} make code more readable and reduce the need for complex concatenation(e.g., name+"is"+age+"year old").
+it's cleaner and easier to maintain, especially for longer or dynamic strings.
+
+2)Numbers:
+*Used for numeric values,includig integers and floating point(decimal) numbers.
+
+3)Boolean:
+*Represents logical values :true or false.
+
+4)Arrays:
+*Used to store multiple values in single variable.
+*Each element in an array has an index starting from 0.
+
+5)Objects:
+*Collections of key-value pairs,useful for representing structured data.
+
+6)Undefined:
+*A variable that has been declared but has not yet been assigned a value.
+
+7)Null:
+*Represents the intentional absence of a value.
+
+
