@@ -6,8 +6,8 @@
                         Basic Syntax: 
 Variables (let, const, var), data types (strings, numbers, arrays, 
 objects), and operators.
-
-                        -->Variables :-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                             -->Variables :-
 *Variablesare like containers that store data values. In javascript ,we use keywords like 
 let,const and var to declare Variables.
 
@@ -25,7 +25,8 @@ Note:- While the variable cannot be reassigned,if it is an object or an array,yo
 *'var' is function-scoped,meaning it is accessible throughout the function it is declares in,not limited by block{}.
 *'var' has been mostly replaced by 'let' and 'const' in modern javaScript because its scoping can cause inexepected behaviors.
 
-                       -->Data types
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                   -->Data types
 1)String:-
 *Used for textual data,written within quotes("",'',or "for template literals)
 =>In javascript backstick(``) are used to create a template literal,which allows you to insert variables and expressions directly into the string.
@@ -60,4 +61,118 @@ it's cleaner and easier to maintain, especially for longer or dynamic strings.
 7)Null:
 *Represents the intentional absence of a value.
 
+------------------------------------------------------------------------------------------------------
+                                  --->Operators
 
+-->JavaScript Arithmetic Operators
+-->JavaScript Assignment Operators
+-->JavaScript Comparison Operators
+-->JavaScript Logical Operators
+-->JavaScript Bitwise Operators
+-->JavaScript Ternary Operators
+-->JavaScript Comma Operators
+-->JavaScript Unary Operators
+-->JavaScript Relational Operators
+-->JavaScript BigInt Operators
+-->JavaScript String Operators
+
+
+1)Arithmetic Operators:
+*Used for Mathematical operations
+ 
+ i)a+b    //addition
+ ii)a-b   //substraction
+ iii)a*b  //multiplication
+ iv)a/b  //division
+ v)a%b  //Modulus
+ vi)++ //Increment
+vii)--//Decrement
+
+2)Assignment Operators:
+i)=      //equal operator (or) Simple Assignment Operator assigns a value to variable.
+ii)+=    //Addition Assignment Operator adds a value to variable.
+iii)-=  //Substraction Assignment Operator substracts a value from a variable.
+iv)*=  //Multiplication Assignment Operator multiplies a variable.
+v)**== //Exponentiation Assignment Operator raises a variable to the poer of the operand.
+vi)/=  //Divison Assignment Operator divides a variable.
+vii)%=  //Remainder Assignment Operator assigns a reminder to a variable.
+viii)<<= //Left shift Assignment Operator left shifts a variable.
+ix)>>=  //Right Shift Assignment Operator rights shifts a variable.
+x)>>>=  //Unsigned Right Shift Assignment Operator right shifts a variable(unsigned).
+xi) &=  //Bitwise AND Assignment Operator does bitwise AND opertation on two operands and assigns the result to the variable.
+xii)|=  //Bitwise OR Assignment Operator does a bitwise OR operation on two operands and assigns the result to the variable.
+xiii)^=  //Bitwise XOR Assignment Operator does a bitwise XOR operation on two operands and assigns the result to the variable.
+xiv)&&=  //Logical AND Assignment Operator is used between two values.
+xv)||=   //Logical OR Assignment Operator is used between two values.
+xvi)??=  //NUllish coalescing Assignment Operator is used between two values.
+
+3)Comparision Operators:
+*Used to compare values and produce a boolean(true or false) result
+
+i)== //compares value only
+ii)=== //compares value and types
+iii)!= //check if values are not equal
+iv)!==	//not equal value or not equal type
+iv)>  //greater
+v)<  //lesser
+vi)>=	//greater than or equal to
+vii)<=	//less than or equal to
+
+
+=>Operator Precedence :
+*Multiplication and divison have higher precedence than addition and substarction.
+*The precedence can be changed by using parentheses.while using parentheses, the operations inside the parentheses are computed first.
+*When many Operations have the same precedence like addition and substraction or multiplication and divison, they are computed from left to right.
+
+4)Logical Operators:
+*Used to combine multiple conditions
+
+i)&& //Logical AND Operator both need to be true
+ii)|| //Logical OR Operator at least one is true
+iii)! //Logical NOT negates the value or Inverts the boolean value like true to false and vice versa.
+
+5)Bitwise Operators:
+*Bitwise Operators used to convert the number to a 32-bit binary number and perform the bitwise operation.
+*The number is converted back to the 64-bit number after the result.
+
+
+i) &      //Bitwise AND Operator returns true only if both the operands are true.
+ii) |     //Bitwise OR Operator returns true even if one of the operands is true.
+iii) ^    //Bitwise XOR Operator returns true if both operators are distinct.
+iv)  ~    //Bitwise NOT Operator is used to invert the boolean value of the operand
+v)  <<    //Bitwise Left shift Operator uses where the first operend is the number and second operand is the number of bits to shift to the left.
+vi) >>    //Bitwise Right Shift Operator uses where the first operand is the number and second operand is the number of bits to shift to the right.
+vii) >>>  //Zero Fill right shift is same as bitwise right shift the only difference is that overflowing bits are discarded.
+
+6)Ternary Operators:
+*The Ternary Operators has three operands.It is the simplified operator of if/else.
+
+i) ?:  //Ternary Operator is like the short form of the if-else condition.
+
+7)Comma Operators:
+*Comma Operator (,) mainly evaluates its operands from left to right sequentially and returns the value of the rightmost operand. 
+
+i) , //When a comma operator is placed in an expression, it executes each expression and returns the rightmost expression.
+
+8)Unary Operators:
+*A unary operation is an operation with only one operand.
+
+i) javaScript typeof //It returns the operand type, The possible types that exist in javascript are undefined, Object, boolean, number, string, symbol, and function.
+ii) Delete //This operator is more specifically used to delete JavaScript object properties.
+
+9)Relational Operators:
+*Relational operators are used to compare its operands and determine the relationship between them. They return a Boolean value (true or false) based on the comparison result.
+
+i) in //in Operator returns true if the specified property is in the specified object.
+ii) instanceof //The instanceof operator return true if the specified object is of the specified object type.
+
+10)BigInt Operators:
+*BigInt operators support arithmetic operations on BigInt data type, including addition, subtraction, multiplication, division, and exponentiation. 
+*Most operators that can be used between numbers can be used between BigInt values as well.
+
+i) BigInt //BigInt Operator return a new BigInt object that represents thr original value.
+
+11)String Operators:
+* String Operators include concatentation(+) and concatenation assignment(+=), used to join strings or combine strings with other data types.
+
+i)+ // concatenation operator it concatenates twos string values together, returing another string that is the union of the two operand strings.
