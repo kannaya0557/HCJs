@@ -1,0 +1,4 @@
+
+
+1)https://www.w3schools.com/js/js_operators.asp
+2)https://www.geeksforgeeks.org/javascript-operators/
