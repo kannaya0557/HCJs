@@ -3,11 +3,11 @@
 *A technology that we use to create Websites.
 *Giving Instructions to computer
 
-                        Basic Syntax: 
+                                 Basic Syntax: 
 Variables (let, const, var), data types (strings, numbers, arrays, 
 objects), and operators.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                             -->Variables :-
+                                 -->Variables :-
 *Variablesare like containers that store data values. In javascript ,we use keywords like 
 let,const and var to declare Variables.
 
