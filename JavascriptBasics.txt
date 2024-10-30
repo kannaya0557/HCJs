@@ -176,3 +176,71 @@ i) BigInt //BigInt Operator return a new BigInt object that represents thr origi
 * String Operators include concatentation(+) and concatenation assignment(+=), used to join strings or combine strings with other data types.
 
 i)+ // concatenation operator it concatenates twos string values together, returing another string that is the union of the two operand strings.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                   -->Functions
+
+*In JavaScript ,functions are blocks of code designed to perform specific tasks. Functions can take inputs (parameters) and often return an output (value). 
+*Javascript provides flexibitly with functions, allowing you to create them in several ways, such as function declarations,expressions,arrow functions, and even anonymous functions.
+*A Javascript function is a block of code designed to perform a particular task.
+
+
+Basi Javascript Function Syntax:
+*A javascript function is defined with "function" keyword,followed by a name,followed by parenthese().
+*Function names can contain letters,digits,underscores, and dollar signs(same rules as vairables).
+*The parentheses may include parameter names separated by commas:
+(parameter1,parameter2,...)
+*The code tp be executes,by the function, is placed inside curly brackets{} 
+Syntax:
+functio functionName(Parameters)
+{
+    retrun result;
+}
+
+*Function parameters are listed the parenthese() in the function definition.
+*Function arguments are the values received by the function when it is invoked.
+*Inside the function,the arguments(the parameters) behave as local variables.
+*Types os Funcitons in JavaScript:-
+
+i)Function Declaration:
+*This is the most common way to define a function.It's hosited,meaning you can call it before it is declared.
+Syntax:
+function Name(parameter){
+    retrun 'String';
+    
+}
+console.log(Name('String'));
+
+ii)Function Expression:
+*In this approach, a function is assigned to a variable.This function is not hoisted,so it must be defined before calling it.
+
+const vairable1=function(vairable2)
+{
+    return vairable2*vairable2;
+}
+console.log(vairable1(value));
+
+iii)Arrow Function:
+
+*Introduced in ES6,arrow functions are a concide way to write functions.
+*They don't have their own 'this' context, which can be useful in some case.
+
+const functionName=(a,b)=>a*b;
+console.log(functionName(a,b));
+
+iv)Anonymos Function:
+
+*An anonymous function has no name and is often used as an argument in higher-order functions.
+ functionName(function()
+ {
+    console.log("context");
+ },integer);
+
+ v)Immediately Invoked Function Expression(IIFE)
+
+ *An IIFE is a functionthat runs as soon as it is defined.It's often used to create a local scope and avoid polluting the global namespace.
+-->Key Concepts in JavaScript Functions:
+Scope: Variables declared inside a function are local and cannot be accessed outside of that function.
+Closures: Functions remember the scope in which they were created, allowing access to variables even after the outer function has finished executing.
+Callbacks: Functions can be passed as arguments to other functions and executed later.
+Anonymous Functions: Functions without a name, often used as callbacks.

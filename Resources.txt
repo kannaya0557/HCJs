@@ -1,4 +1,11 @@
 
+//Complie JavaScript Here
+https://www.programiz.com/javascript/online-compiler/
 
+//Operators
 1)https://www.w3schools.com/js/js_operators.asp
 2)https://www.geeksforgeeks.org/javascript-operators/
+
+//Functions
+1)https://www.w3schools.com/js/js_functions.asp
+2)https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
