@@ -240,7 +240,7 @@ iv)Anonymos Function:
 
  *An IIFE is a functionthat runs as soon as it is defined.It's often used to create a local scope and avoid polluting the global namespace.
 -->Key Concepts in JavaScript Functions:
-Scope: Variables declared inside a function are local and cannot be accessed outside of that function.
-Closures: Functions remember the scope in which they were created, allowing access to variables even after the outer function has finished executing.
-Callbacks: Functions can be passed as arguments to other functions and executed later.
-Anonymous Functions: Functions without a name, often used as callbacks.
+=>Scope: Variables declared inside a function are local and cannot be accessed outside of that function.
+=>Closures: Functions remember the scope in which they were created, allowing access to variables even after the outer function has finished executing.
+=>Callbacks: Functions can be passed as arguments to other functions and executed later.
+=>Anonymous Functions: Functions without a name, often used as callbacks.
